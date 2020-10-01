@@ -8,7 +8,7 @@ line-height: 1.5;
 margin: 0;
 padding: 10px 10px;}
 
-li{font-family: 'Montserrat', sans-serif;
+li{font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.5;
     margin: 0;
     padding: 5px 5px;}
@@ -29,7 +29,7 @@ ul {
     font-size: 50px;}
 
     .highlight{color: white;
-        background-color: #333333;
+        background-color: #3a583d;
                 letter-spacing: 6px;}
     /*header*/
     header img {padding: 0;}
@@ -81,12 +81,12 @@ section ul {margin: 0; padding: 10px 30px;}
     
     body {background-color: #333333;
     color: whitesmoke;}
-        .maintitle {font-size: 30px;
+        .maintitle {font-size: 35px;
         background-color: whitesmoke;
         color: #333333;}
         header {color: whitesmoke;}
         header li {
-            color: rgb(213, 252, 162);}
+            color: #ffffff;}
         nav {display: none;}
         .highlight {background-color: whitesmoke;
                     color: #333333;}
