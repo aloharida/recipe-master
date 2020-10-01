@@ -72,8 +72,8 @@ big
 @media (min-width: 960px){
     body {
         font-size: 1.5em;
-        background-color: whitesmoke;
-    }
+        background-color: whitesmoke;}
+        
     h2{font-size: 60px;
     }
 
