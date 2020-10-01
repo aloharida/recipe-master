@@ -23,7 +23,7 @@ ul {
     h1, h2 {
         font-family: 'Montserrat', sans-serif;
     }
-
+    
     .maintitle{background-color: #333333;
     color: white;
     font-size: 50px;}
@@ -68,23 +68,28 @@ ul {
 /*sections*/
 section ul {margin: 0; padding: 10px 30px;}
 
-big
-@media (min-width: 960px){
-    body {
-        font-size: 1.5em;
-        background-color: whitesmoke;}
-        
-    h2{font-size: 60px;
-    }
+.container {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows: auto;
+
+}
 
     
 /* small */
-    @media (min-width: 640px) {
+    @media (max-width: 640px) {
     
-    body {background-color: #333333;}
+    body {background-color: #333333;
+    color: whitesmoke;}
+        .maintitle {font-size: 30px;
+        background-color: whitesmoke;
+        color: #333333;}
+        header {color: whitesmoke;}
         header li {
-            color: rgb(213, 252, 162);
-        }
+            color: rgb(213, 252, 162);}
+        nav {display: none;}
+        .highlight {background-color: whitesmoke;
+                    color: #333333;}
        
     .copyright {text-align: center;
                 font-size: 20px;}
